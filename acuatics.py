@@ -60,13 +60,14 @@ class Acuatics(Animals):
                 ─────────────▀███▀──────────────────────\n")
         elif self.species == "Crab":
             print(" /\
-                ( /   @ @    ()
+                \( /   @ @    ()
                 \  __| |__  /
                 -/   "   \-
                 /-|       |-\
                 / /-\     /-\ \
                 / /-`---'-\ \
                 /         \")
+                
     def sound(self):
         if self.species == "Crab":
             print("TacTacTac")
